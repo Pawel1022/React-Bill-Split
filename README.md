@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# 💸 Split the Bill – React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a fully functional React application that helps you split bills with friends and track who owes whom.  
+You can add friends, select one, and then log shared expenses. The app calculates balances and keeps everything organized.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📚 Based on a course (but written in my own way)
 
-### `npm start`
+This project is inspired by the **"Ultimate React Course 2025"** by [Jonas Schmedtmann](https://www.udemy.com/course/the-ultimate-react-course/), but it is **not a copy-paste**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I rewrote it completely **in my own style**, building the logic, components, and structure from scratch, using only the course challenge idea as a base.  
+Everything from state management to styling is **my own implementation**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Add new friends with name and avatar URL
+- View each friend's balance:
+  - Green = they owe you money
+  - Red = you owe them money
+  - Gray = you're even
+- Select a friend to split a bill
+- Fill out who paid and how much
+- Automatically updates each friend's balance
+- "Add friend" toggle with clean UI
+- Reset form on submission
+- Responsive, mobile-friendly layout
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧠 What I Practiced
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `useState` and lifting state up
+- Building fully controlled forms
+- Conditional rendering and toggling components
+- Reusable components (`Button`, `Form`, `FriendItem`)
+- Prop drilling and local state
+- Component organization and clean file structure
+- Updating nested arrays of objects with `map`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React** (hooks & functional components)
+- **JavaScript (ES6+)**
+- **CSS** (custom styling, no libraries)
+- No external dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Live Demo
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+👉 [https://your-vercel-link.vercel.app](https://your-vercel-link.vercel.app)  
+_(Paste your deployed link here)_
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📂 Project Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `App.js` – root component and main logic
+- `FriendsList.js`, `Friend.js` – displays the list and individual friends
+- `FormAddFriend.js`, `FormSplitBill.js` – controlled forms for input
+- `Button.js` – reusable button component
+- `initialFriends.js` – seed data
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## ✍️ Author
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Paweł Woźniak**  
+React developer in training – building real projects to learn real skills.  
+[GitHub – Pawel1022](https://github.com/Pawel1022)
