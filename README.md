@@ -53,8 +53,7 @@ Everything from state management to styling is **my own implementation**.
 
 ## 🚀 Live Demo
 
-👉 [https://your-vercel-link.vercel.app](https://your-vercel-link.vercel.app)  
-_(Paste your deployed link here)_
+👉 [react-bill-split-fwaskp9vr-pawel1022s-projects.vercel.app](react-bill-split-fwaskp9vr-pawel1022s-projects.vercel.app)
 
 ---
 
